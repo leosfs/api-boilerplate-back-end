@@ -7,7 +7,4 @@ module1.post('/', (request, response) => {
   return module1Controller.handle(request, response);
 });
 
-
-
-
 export { module1 };
