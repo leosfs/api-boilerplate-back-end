@@ -25,7 +25,6 @@ jobs:
       - name: Build
         run: npm run build
 
-
   deploy-develop:
     needs: build-ci
     if: github.ref == 'refs/heads/develop'
