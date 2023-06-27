@@ -112,7 +112,7 @@ jobs:
             "commit": "${{ github.sha }}",
             "author": "${{ github.actor }}", 
             "project":"app-boilerplate-back-end",
-            "commands":["echo 'executado do back end'", "echo 'boilerplate'"]
+            "commands":["echo 'teste222'", "echo 'teste2333'"]
           }' https://webhook-api-sikx.onrender.com/api/webhook
 
   webhook-update-image-develop:
@@ -128,5 +128,5 @@ jobs:
             "commit": "${{ github.sha }}",
             "author": "${{ github.actor }}", 
             "project":"app-boilerplate-back-end", 
-            "commands":["echo 'executado do back end'", "echo 'boilerplate'"]
+            "commands":["echo 'teste222'", "echo 'teste2333'"]
           }' https://webhook-api-sikx.onrender.com/api/webhook
